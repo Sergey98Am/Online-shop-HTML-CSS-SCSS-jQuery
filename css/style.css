@@ -952,7 +952,13 @@ body main .main .e .products .product {
   background: #fff;
   width: 25%;
   height: 450px;
+  position: relative;
   border: 1px solid #ffdb06;
+}
+@media screen and (min-width: 1500px) {
+  body main .main .e .products .product {
+    height: 550px;
+  }
 }
 @media screen and (max-width: 1199px) {
   body main .main .e .products .product {
@@ -976,7 +982,6 @@ body main .main .e .products .product .img-div {
 body main .main .e .products .product .img-div a {
   width: 100%;
   height: 100%;
-  display: block;
 }
 body main .main .e .products .product .img-div a img {
   width: 100%;
