@@ -938,14 +938,21 @@ body main .main .e .products .cart .cart-confirm {
 body main .main .e .products .pr-hide {
   display: none;
 }
-body main .main .e .products .product {
-  background: #fff;
-  width: 25%;
-  height: 450px;
-  position: relative;
+body main .main .e .products .pr-show {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+body main .main .e .products .pr-fl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body main .main .e .products .product {
+  background: #fff;
+  width: 25%;
+  height: 250px;
+  position: relative;
   border: 1px solid #ffdb06;
 }
 @media screen and (min-width: 1500px) {
