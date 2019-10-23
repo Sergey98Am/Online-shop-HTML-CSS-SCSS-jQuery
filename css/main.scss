@@ -1042,22 +1042,24 @@ body {
 				.pr-hide{
 						display: none;
 					}
-					.pr-show{
-						display: flex;
-						justify-content: space-between;
-						flex-direction: column;
-					}
-					.pr-fl{
-						display: flex;
-						justify-content: space-between;
-						flex-direction: column;
-					}
+					// .pr-show{
+					// 	display: flex;
+					// 	justify-content: space-between;
+					// 	flex-direction: column;
+					// }
+					// .pr-fl{
+					// 	display: flex;
+					// 	justify-content: space-between;
+					// 	flex-direction: column;
+					// }
 					.product{
 						background: #fff;
 						width: 25%;
 						height: 450px;
 						position: relative;
-						
+	display: flex;
+						justify-content: space-between;
+						flex-direction: column;
 						border: 1px solid #ffdb06;
 						@media screen and (min-width: 1500px) {
 							height: 550px;					
@@ -1078,7 +1080,7 @@ body {
 							a{
 								width: 100%;
 								height: 100%;
-								
+								display: block;
 								img{
 									width: 100%;
 									height: 100%;
