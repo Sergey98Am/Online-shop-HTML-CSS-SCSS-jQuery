@@ -944,7 +944,7 @@ body {
 					    -ms-flex-pack: center;
 					        justify-content: center;
 		
-					        align-items: center;
+					        align-items: stretch;
 					-ms-flex-wrap: wrap;
 					    flex-wrap: wrap;
 					.cart {
@@ -1055,13 +1055,13 @@ body {
 					.product{
 						background: #fff;
 						width: 25%;
-						height: 550px;
+						height: 450px;
 						position: relative;
 						
 						border: 1px solid #ffdb06;
-						@media screen and (min-width: 1500px) {
-							height: 550px;					
-						}
+						// @media screen and (min-width: 1500px) {
+						// 	height: 550px;					
+						// }
 						@media screen and (max-width: 1199px) {
 							width: 33%;						
 						}

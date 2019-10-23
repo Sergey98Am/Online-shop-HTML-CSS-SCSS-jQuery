@@ -850,7 +850,7 @@ body main .main .e .products {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -951,14 +951,9 @@ body main .main .e .products .pr-fl {
 body main .main .e .products .product {
   background: #fff;
   width: 25%;
-  height: 550px;
+  height: 450px;
   position: relative;
   border: 1px solid #ffdb06;
-}
-@media screen and (min-width: 1500px) {
-  body main .main .e .products .product {
-    height: 550px;
-  }
 }
 @media screen and (max-width: 1199px) {
   body main .main .e .products .product {
