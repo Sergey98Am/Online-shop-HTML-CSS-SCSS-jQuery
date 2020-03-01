@@ -951,15 +951,10 @@ body main .main .e .products .pr-fl {
 body main .main .e .products .product {
   background: #fff;
   width: 25%;
-  height: 450px;
   position: relative;
   border: 1px solid #ffdb06;
 }
-@media screen and (min-width: 1500px) {
-  body main .main .e .products .product {
-    height: 550px;
-  }
-}
+
 @media screen and (max-width: 1199px) {
   body main .main .e .products .product {
     width: 33%;
