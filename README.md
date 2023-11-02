@@ -1,1 +1,1 @@
-https://sergey98am.github.io/online_shop-JS- 
+https://sergey98am.github.io/Online-shop-HTML-CSS-SCSS-jQuery
